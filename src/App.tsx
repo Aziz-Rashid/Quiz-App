@@ -69,7 +69,7 @@ const App: React.FC = () => {
 
   return (
     <div className="bg">
-      <h1 >Quiz app </h1>
+      <h1 style={{fontSize: "50px"}}>𝑸𝒖𝒊𝒛 𝑨𝒑𝒑!</h1>
       {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
         <div >
           <Button className="btn" variant="contained" color="primary" onClick={Quiz}>
