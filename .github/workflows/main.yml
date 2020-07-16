@@ -34,4 +34,4 @@ jobs:
     - name: install surge
       run: npm install --global surge
     - name: run surge
-      run: surge ./build quiz-app.surge.sh --token ${{secrets.TOKEN}}
+      run: surge ./build quiz-piaic.surge.sh --token ${{secrets.TOKEN}}
